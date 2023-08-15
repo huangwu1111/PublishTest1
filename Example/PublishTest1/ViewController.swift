@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import JackMa
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        JackMac().hudTest()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,16 +1,27 @@
 PODS:
-  - PublishTest1 (0.1.0)
+  - Alamofire (5.7.1)
+  - ProgressHUD (13.7.2)
+  - PublishTest1 (0.2.0):
+    - Alamofire
+    - ProgressHUD
 
 DEPENDENCIES:
   - PublishTest1 (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ProgressHUD
 
 EXTERNAL SOURCES:
   PublishTest1:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PublishTest1: e0126dc57dd09974f4e37d56cb6a32a8e179b682
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  PublishTest1: 7e233b00421c5f3e1aa269d579c120f0cba7b5cf
 
-PODFILE CHECKSUM: 775fd1c28ebd4ab8a068c986e4175051d8a97a8d
+PODFILE CHECKSUM: 2db8a13d1aeca6b6240d19ab8354adf21806387b
 
 COCOAPODS: 1.12.1

@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'PublishTest1/Classes/**/*.xcframework'
   s.static_framework  =  true
   s.swift_version = '5'
+  
   # s.resource_bundles = {
   #   'PublishTest1' => ['PublishTest1/Assets/*.png']
   # }
