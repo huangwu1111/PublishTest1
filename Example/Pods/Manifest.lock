@@ -1,0 +1,16 @@
+PODS:
+  - PublishTest1 (0.1.0)
+
+DEPENDENCIES:
+  - PublishTest1 (from `../`)
+
+EXTERNAL SOURCES:
+  PublishTest1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PublishTest1: e0126dc57dd09974f4e37d56cb6a32a8e179b682
+
+PODFILE CHECKSUM: 775fd1c28ebd4ab8a068c986e4175051d8a97a8d
+
+COCOAPODS: 1.12.1
