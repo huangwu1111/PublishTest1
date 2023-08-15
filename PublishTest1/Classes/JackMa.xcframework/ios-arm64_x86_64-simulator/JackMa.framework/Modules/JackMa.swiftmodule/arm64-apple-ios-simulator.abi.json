@@ -1,0 +1,131 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JackMa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ProgressHUD",
+        "printedName": "ProgressHUD",
+        "declKind": "Import",
+        "moduleName": "JackMa"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JackMac",
+        "printedName": "JackMac",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JackMac",
+                "printedName": "JackMa.JackMac",
+                "usr": "s:6JackMa0A3MacC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6JackMa0A3MacCACycfc",
+            "mangledName": "$s6JackMa0A3MacCACycfc",
+            "moduleName": "JackMa",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "des",
+            "printedName": "des(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6JackMa0A3MacC3des4nameySS_tF",
+            "mangledName": "$s6JackMa0A3MacC3des4nameySS_tF",
+            "moduleName": "JackMa",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hudTest",
+            "printedName": "hudTest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6JackMa0A3MacC7hudTestyyF",
+            "mangledName": "$s6JackMa0A3MacC7hudTestyyF",
+            "moduleName": "JackMa",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6JackMa0A3MacC",
+        "mangledName": "$s6JackMa0A3MacC",
+        "moduleName": "JackMa",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/lp\/p5c081rn0fx90bm4b70xyt5c0000gn\/T\/frameworks-fxm2mtxy\/Pods\/JackMa\/JackMa\/Classes\/JackMac.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 20,
+      "value": "\"my name is \""
+    },
+    {
+      "filePath": "\/var\/folders\/lp\/p5c081rn0fx90bm4b70xyt5c0000gn\/T\/frameworks-fxm2mtxy\/Pods\/JackMa\/JackMa\/Classes\/JackMac.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/var\/folders\/lp\/p5c081rn0fx90bm4b70xyt5c0000gn\/T\/frameworks-fxm2mtxy\/Pods\/JackMa\/JackMa\/Classes\/JackMac.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 8,
+      "value": "\"你好\""
+    }
+  ]
+}

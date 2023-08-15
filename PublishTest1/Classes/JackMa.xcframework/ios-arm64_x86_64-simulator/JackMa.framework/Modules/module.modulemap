@@ -1,0 +1,11 @@
+framework module JackMa {
+  umbrella header "JackMa-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module JackMa.Swift {
+  header "JackMa-Swift.h"
+  requires objc
+}
